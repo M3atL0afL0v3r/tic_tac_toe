@@ -22,7 +22,9 @@ This is a console-based Tic-Tac-Toe game implemented in Python. The player compe
 ## How to Play
 
 1. Run the game using Python 3:
-  >python tic_tac_toe.py
+   ```
+   python tic_tac_toe.py
+   ```
 2. Choose the difficulty level:
   +1 for Easy
   +2 for Hard
@@ -37,16 +39,17 @@ This is a console-based Tic-Tac-Toe game implemented in Python. The player compe
 7. After the game, choose whether to play again by entering Y (yes) or N (no).
 
 ## Example Board
-  >Top Left(TL) | Top Middle(TM) | Top Right(TR)
-  >Middle Left(ML) | Middle Middle(MM) | Middle Right(MR)
-  >Bottom Left(BL) | Bottom Middle(BM) | Bottom Right(BR)
-  >
-  > X |   | O
-  >---+---+---
-  >   | X |  
-  >---+---+---
-  > O |   | X
-
+```
+  Top Left(TL) | Top Middle(TM) | Top Right(TR)
+  Middle Left(ML) | Middle Middle(MM) | Middle Right(MR)
+  Bottom Left(BL) | Bottom Middle(BM) | Bottom Right(BR)
+  
+   X |   | O
+  ---+---+---
+     | X |  
+  ---+---+---
+   O |   | X
+```
 ## How the Minimax AI Works
 The Minimax algorithm is a decision-making algorithm used in two-player turn-based games like Tic-Tac-Toe. It assumes that both players play optimally and explores all possible future moves to choose the best outcome.
 *Maximizing Player: The computer tries to maximize its score by selecting the move with the highest evaluation.
