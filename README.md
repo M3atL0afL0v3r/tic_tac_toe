@@ -1,9 +1,9 @@
-#tic_tac_toe
-##Overview
+# tic_tac_toe
+## Overview
 
 This is a console-based Tic-Tac-Toe game implemented in Python. The player competes against the computer, which can play at two difficulty levels: Easy (random moves) or Hard (Minimax AI). The game also includes a coin flip to decide who goes first and a play again feature for repeated matches.
 
-##Features
+## Features
 
 *Two Difficulty Levels
   +Easy: The computer chooses random moves.
@@ -19,7 +19,7 @@ This is a console-based Tic-Tac-Toe game implemented in Python. The player compe
 *Replay Option
   +After a game ends, the player can choose to play again by entering Y or N.
 
-##How to Play
+## How to Play
 
 1. Run the game using Python 3:
   >python tic_tac_toe.py
@@ -36,7 +36,7 @@ This is a console-based Tic-Tac-Toe game implemented in Python. The player compe
 6. The game ends when either player wins or the board is full (tie).
 7. After the game, choose whether to play again by entering Y (yes) or N (no).
 
-##Example Board
+## Example Board
   >Top Left(TL) | Top Middle(TM) | Top Right(TR)
   >Middle Left(ML) | Middle Middle(MM) | Middle Right(MR)
   >Bottom Left(BL) | Bottom Middle(BM) | Bottom Right(BR)
@@ -47,7 +47,7 @@ This is a console-based Tic-Tac-Toe game implemented in Python. The player compe
   >---+---+---
   > O |   | X
 
-##How the Minimax AI Works
+## How the Minimax AI Works
 The Minimax algorithm is a decision-making algorithm used in two-player turn-based games like Tic-Tac-Toe. It assumes that both players play optimally and explores all possible future moves to choose the best outcome.
 *Maximizing Player: The computer tries to maximize its score by selecting the move with the highest evaluation.
 *Minimizing Player: The human player is assumed to play optimally, minimizing the computer’s score.
@@ -58,9 +58,9 @@ The Minimax algorithm is a decision-making algorithm used in two-player turn-bas
 *Depth Factor: The score is adjusted by the depth of recursion to prefer faster wins and slower losses.
 This ensures that on Hard difficulty, the computer never loses if played correctly.
 
-##Dependencies
+## Dependencies
 >Python 3.x
 >No external libraries required.
 
-##Author
-###David Gautier
+## Author
+**David Gautier**
